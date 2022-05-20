@@ -109,6 +109,8 @@ input[type="file"] {
    text-transform: uppercase;text-align: center;padding: 13px;width: 66%;}
 .app-card-footer label:hover{background: #a6a6a678; border-color:#a6a6a678; }
 .app-card-footer img{width: 28px;}
+.file-upload-document{ border: 3px dashed #202020!important; padding: 82px 0px!important; font-size: 25px!important; width:88%!important;}
+.file-upload-document span{font-size: 12px;}
 
 /*FIM CUSTOM PORTAL CSS */
 

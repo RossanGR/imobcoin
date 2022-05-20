@@ -41,7 +41,8 @@ body {
     margin-top: 238px;
 }
 
-/* Formulário Home */
+/* Formulários*/
+/* Formulario Home */
 .form-login {
     margin-top: 63px;
     margin-bottom: 233px;
@@ -71,10 +72,47 @@ body {
 .form-login span{color: var(--white);}
 .form-login img{margin-bottom: 45px;}
 
-.numbers-border-bottom{border-bottom: 2px solid var(--btn-gray);width: 76px;margin-top: 28px;}
+/* Fim Formulário Home */
+/* Form Gestão de cadastro */
+.form-gestao{
+    padding-right: 100px;
+}
+.form-gestao label{
+    color:#606060;
+    font-family: 'archia';
+    font-size: 16px;
+    font-weight: 400;
+}
+.form-gestao input{background: #eeeeee;}
 
-/* Imagem centralizada */
+/* Fim Form Gestão de cadastro */
+.numbers-border-bottom{border-bottom: 2px solid var(--btn-gray);width: 76px;margin-top: 5px;background: transparent; border-left: none; border-right: none; border-top: none; color:#FFF; text-align: center;font-size: 38px;}
+
+/* Imagem */
 .picture-center{display: block; margin-left: auto; margin-right: auto;}
+.w-17{width: 17% !important;}
+
+
+/* CUSTOM PORTAL CSS */
+
+/* BTNS */
+input[type="file"] {
+    display: none!important;
+}
+/* .custom-file-upload {
+    border: 1px solid #ccc;
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+} */
+.app-card-footer  label{background: #FFF;border: 1px solid #202020;color: #202020;font-size: 18px;font-family: 'archia';display: block;align-items: center;margin: 0 auto; transition: .4s;
+   text-transform: uppercase;text-align: center;padding: 13px;width: 66%;}
+.app-card-footer label:hover{background: #a6a6a678; border-color:#a6a6a678; }
+.app-card-footer img{width: 28px;}
+
+/*FIM CUSTOM PORTAL CSS */
+
+.btn-black{background-color: var(--black)!important; color: var(--white)!important;}
 
 
 
@@ -100,21 +138,10 @@ body {
 
 
 @media (max-width: 425px){
-    .form-login{
-        padding: 74px 14px;
-        width: 91%;
-        height: auto;
-    }
-    .logo img{
-       padding-left: 10px;
-       
-    }
-    .logo--item {
-        margin-top: 90px;
-        width: 75%;
-       display: block;
-    }
-    .numbers-border-bottom {        
-        width: 46px;
-    }
-}
+    .form-login{ padding: 74px 14px; width: 91%; height: auto;}
+    .logo img{padding-left: 10px;}
+    .logo--item {margin-top: 90px; width: 75%;display: block;}
+    .numbers-border-bottom {width: 46px;}
+    .app-header{height: 98px!important;}
+    .app-wrapper {margin-top: 37px;}
+} 

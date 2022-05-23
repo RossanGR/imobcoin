@@ -116,8 +116,30 @@ input[type="file"] {
 
 .btn-black{background-color: var(--black)!important; color: var(--white)!important;}
 
+/* Background */
+.bg-white{color:var(--white)}
 
+/* Fonts Colors */
+.color-black{color: var(--black);}
 
+/* ICONS */
+.icon-search{
+    position: relative;
+    right: 28px;
+    bottom: 2px;
+}
+
+.icon-eyer{width: 32px;}
+
+/* Width */
+.w-5{width: 5%;}
+.w-20{width: 20%;}
+
+/* Table */
+table{font-family: 'archia';}
+
+/* Link */
+.white{color: var(--white)!important;}
 
 
 

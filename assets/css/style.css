@@ -173,6 +173,9 @@ table{font-family: 'archia';}
 
 
 
+@media (max-width: 583px){
+    .hidden-mobile{overflow-x: auto; width: 90%;}
+}
 
 
 @media (max-width: 425px){
@@ -184,4 +187,6 @@ table{font-family: 'archia';}
     .app-wrapper {margin-top: 37px;}
     #myTab li{width: 126px;font-size: 12px;}
     .form-gestao{padding-right: 0;}
+    .hidden-mobile{overflow-x: auto;width: 100%;}
 } 
+

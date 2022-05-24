@@ -10,6 +10,7 @@
     --btn-gray: #606060;
     --white: #FFF;
     --black: #000;
+    --light-black: #252930;
 }
 
 /* FONTS */
@@ -23,6 +24,8 @@ body {
     font-family: var(--font-primary);
     zoom: 86%;
 }
+
+body p{   font-family: var(--font-primary);}
 
 /* Scroll  */
 ::-webkit-scrollbar {
@@ -125,6 +128,15 @@ input[type="file"] {
 .file-upload-document{ border: 3px dashed #202020!important; padding: 82px 0px!important; font-size: 25px!important; width: 80%!important;}
 .file-upload-document span{font-size: 12px;}
 
+.app-card-comprador{background: #eeeeee; font-family: 'archia';}
+.app-card-comprador p{color: var(--light-black);}
+
+.app-card-carbon{background: #eeeeee; font-family: 'archia'; border-radius: 11px;}
+.app-card-carbon p{color: var(--light-black); font-family: 'archia';}
+.app-card-carbon h5{color: var(--light-black); font-size: 35px;}
+.app-card-carbon img{background: #eeeeee; font-family: 'archia'; border-radius: 11px; margin-top: 17px;}
+.app-card-carbon .h5-custom{margin-top: 24px;}
+
 /*FIM CUSTOM PORTAL CSS */
 
 .btn-black{background-color: var(--black)!important; color: var(--white)!important;}
@@ -147,6 +159,8 @@ input[type="file"] {
 /* Width */
 .w-5{width: 5%;}
 .w-20{width: 20%;}
+.w-30{width: 30%;}
+.w-45{width: 45%;}
 .w-80{width: 80%;}
 
 /* Table */
@@ -154,6 +168,9 @@ table{font-family: 'archia';}
 
 /* Link */
 .white{color: var(--white)!important;}
+
+/* Text */
+.bg-text-validacao{background: #252525; padding: 10px 3px; color: #FFF; border-radius: 9px;}
 
 
 
@@ -175,6 +192,9 @@ table{font-family: 'archia';}
 
 @media (max-width: 583px){
     .hidden-mobile{overflow-x: auto; width: 90%;}
+    .app-card-comprador .text-end{ text-align: start!important;}
+    .app-card-comprador .float-end{ float:left!important;}
+    .modal-dialog img{width: 47%;}
 }
 
 
@@ -188,5 +208,8 @@ table{font-family: 'archia';}
     #myTab li{width: 126px;font-size: 12px;}
     .form-gestao{padding-right: 0;}
     .hidden-mobile{overflow-x: auto;width: 100%;}
+    .modal-dialog img{width: 80%;}
+    /* .app-card-comprador>.text-end{ text-align: start;} */
 } 
+
 

@@ -181,7 +181,8 @@ table{font-family: 'archia';}
 
 
 
-
+.rodar{transition:1s ease-in-out;}
+.app-card-carbon:hover img{transform: rotateY(360deg);}
 
 
 
